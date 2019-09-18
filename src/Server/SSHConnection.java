@@ -36,7 +36,7 @@ import org.apache.commons.io.FileUtils;
  *
  * @author umagrawal
  */
-public class LinuxConnection implements LinuxConnectionIntf {
+public class SSHConnection implements SSHConnectionIntf {
 
     //<editor-fold defaultstate="collapsible" desc="Variables declaration">
     /**
