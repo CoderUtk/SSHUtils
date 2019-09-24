@@ -64,7 +64,6 @@ public class SSHConnection implements SSHConnectionIntf {
      * 
      */
     public static StringBuffer consolidated_output = new StringBuffer("");
-
     private String hostname;
     private String username;
     private int port;
@@ -156,7 +155,7 @@ public class SSHConnection implements SSHConnectionIntf {
 
     @Override
     public void setPassphrase(String passphrase) {
-        this.passphrase = passphrase;
+        this.passkey = passphrase;
     }
 
     @Override
